@@ -2,8 +2,6 @@ import pmd
 import csv
 import os
 
-cloner_repo(url_repo, chemin_destination)
-
 def analyser_projet(chemin_projet, chemin_sortie):
 
     regles = pmd.PMDConfiguration()
