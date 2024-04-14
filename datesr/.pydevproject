@@ -5,11 +5,9 @@
     
     
     <pydev_pathproperty name="org.python.pydev.PROJECT_SOURCE_PATH">
-                
         <path>/datesr</path>
-                
         <path>/${PROJECT_DIR_NAME}/pfaa</path>
-            
+        <path>/${PROJECT_DIR_NAME}/src</path>
     </pydev_pathproperty>
                     
     
