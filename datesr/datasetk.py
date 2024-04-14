@@ -1,14 +1,7 @@
 import pmd
 import csv
 import os
-from git import Repo 
 
-
-def cloner_repo(url, chemin_destination):
-  Repo.clone_from(url, chemin_destination)
-
-url_repo = "https://github.com/user/repo.git"
-chemin_destination = "C:/Users/norhe/pfaa"
 cloner_repo(url_repo, chemin_destination)
 
 def analyser_projet(chemin_projet, chemin_sortie):
